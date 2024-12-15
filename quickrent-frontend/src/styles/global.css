@@ -1,0 +1,93 @@
+/* File: src/styles/global.css */
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+    margin: 0;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  /* Global Styles */
+  body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f8;
+  }
+  
+  h1, h2, h3 {
+    color: #222;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+  }
+  
+  p {
+    margin-bottom: 1em;
+    color: #555;
+  }
+  
+  button {
+    cursor: pointer;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  button.cta {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  button.cta:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
+  
+  /* Sections */
+  section {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  header, footer {
+    padding: 20px 20px;
+    background-color: #222;
+    color: #fff;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    body {
+      font-size: 14px;
+    }
+  
+    h1, h2 {
+      font-size: 1.5rem;
+    }
+  
+    button {
+      font-size: 14px;
+    }
+  }
+  

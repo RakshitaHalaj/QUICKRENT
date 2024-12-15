@@ -1,0 +1,122 @@
+/* /* File: src/styles/hero.css
+
+.hero {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px 20px;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .navbar h1 {
+    font-size: 1.8rem;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .nav-links a {
+    color: #fff;
+    font-size: 1rem;
+    transition: color 0.3s;
+  }
+  
+  .nav-links a:hover {
+    color: #cce7ff;
+  }
+  
+  .hero-content {
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .hero-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  
+  button.cta {
+    background-color: #ffc107;
+    color: #333;
+    font-size: 1rem;
+  }
+  
+  button.cta:hover {
+    background-color: #e0a800;
+  }
+   */
+
+
+   /* Hero Banner Styles */
+/* .hero-banner {
+    background: url('/path/to/your/image.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.5);
+  }
+  
+  .hero-content {
+    max-width: 800px;
+    z-index: 1;
+  }
+  
+  h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+  
+  p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  .cta-button {
+    background-color: #f39c12;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #d87f0a;
+  }
+  
+  /* Responsive Design */
+  /* @media (max-width: 768px) {
+    .hero-banner {
+      padding: 50px 20px;
+      height: auto;
+    }
+  
+    h1 {
+      font-size: 36px;
+    }
+  
+    p {
+      font-size: 16px;
+    }
+  }
+   */ 

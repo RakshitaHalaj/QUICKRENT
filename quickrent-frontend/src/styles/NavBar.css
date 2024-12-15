@@ -1,0 +1,65 @@
+
+nav {
+    background-color: #333;
+    padding: 10px 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  li {
+    margin: 0 20px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding: 8px 16px;
+    display: inline-block;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Hover effect for links */
+  a:hover {
+    background-color: #575757;
+  }
+  
+  /* Optional: Active link style, using class 'active' */
+  a.active {
+    background-color: #f39c12;
+    color: white;
+  }
+  
+  /* Specific link styles (optional customization) */
+  .home-link {
+    font-style: italic;
+    color: aliceblue;
+    font-size: 17px;
+  }
+  
+  .features-link {
+    font-style: italic;
+    color: aliceblue;
+    font-size: 17px;
+  }
+  
+  .gadgets-link {
+    font-style: italic;
+    color: aliceblue;
+    font-size: 17px;
+  }
+  
+  .contact-link {
+    font-size: 17px;
+    color: aliceblue;
+    font-style: italic;
+  }
+  
