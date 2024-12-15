@@ -1,3 +1,12 @@
+Project Setup:
+1.Create 1 folder
+2 then open that folder in Commond prompt
+3.Then type this cmd npm create vite@latest.
+4.Give project name
+5.select Framework as React
+6.then select Javascript.
+
+
 Requirements
 1. Platform Details:
 ○ Mock Startup Name: QuickRent
